@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-11-25T16:23:45.302176+00:00",
+  "module": "/content/drive/MyDrive/BugPredictor/defectors_v2/src/bug_predictor_data.py",
+  "tests": "/content/drive/MyDrive/BugPredictor/defectors_v2/tests/test_bug_predictor_data.py",
+  "partitions_validated": {
+    "train": {
+      "rows_validated": 182680,
+      "positive": 83139,
+      "negative": 99541,
+      "features": [
+        "source"
+      ],
+      "target": "file_defective"
+    },
+    "val": {
+      "rows_validated": 9768,
+      "positive": 1246,
+      "negative": 8522,
+      "features": [
+        "source"
+      ],
+      "target": "file_defective"
+    }
+  },
+  "test_partition": "not opened; excluded from this train/validation loader",
+  "model_training_performed": false
+}
